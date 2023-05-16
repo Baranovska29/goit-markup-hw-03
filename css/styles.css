@@ -1,0 +1,215 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: var(--first-background);
+}
+:root {
+    --title-color: #2E2F42;
+    --text-color: #434455;
+    --first-background: #FFFFFF;
+    --second-background: #2E2F42;
+
+}
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+    width: 71px;
+    height: 21px;
+}
+.logo-color{
+    font-family: 'Raleway',sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2E2F42;
+}
+.logo-color-footer{
+    color: #F4F4FD;
+}
+.header-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+     color: var(--title-color)
+
+}
+.header-item:hover,
+ .header-item:focus {
+    color: #404BBF;
+    text-decoration: underline;
+}
+.header-address {
+    font-style: normal 
+}
+.header-link-address {
+    font-size: 16px;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+.header-link-address:hover, 
+.header-link-address:focus {
+    color: #404BBF;
+}
+.section-btn {
+    font-family:inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    background: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.section-btn:hover {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+}
+.section-btn:focus{
+    background-color: #404BBF;
+    color: #FFFFFF;}
+.main {
+    background: var(--second-background);
+}
+
+.main-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    background:var(--second-background);
+   
+}
+.main-btn {
+    font-family:inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+}
+.main-btn:hover, .main-btn:focus {
+    background-color: #404BBF;
+}
+
+
+.wrapper-list-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:var(--title-color);
+}
+.wrapper-list-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    
+}
+
+.services-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color:var(--title-color);
+}
+.team {
+    background-color: #F4F4FD
+}
+.team-block {
+    background-color: var(--first-background);
+}
+.team-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--title-color);
+}
+
+.team-item {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+}
+.team-item-text {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+    
+}
+.card-item {
+    background-color: var(--first-background);
+}
+.card-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:var(--title-color);
+}
+.card-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:var(--text-color);
+}
+.footer {
+    background: var(--second-background);
+}
+.footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;}
+
+
+
+
+
+
+
+
+
+
+
+
+
