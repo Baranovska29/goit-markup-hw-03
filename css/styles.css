@@ -33,6 +33,10 @@ img {
     text-decoration: none;
 }
 /* --------------header--------- */
+.header {
+border-bottom: 1px solid #E7E9FC;
+}
+
 .logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
@@ -65,9 +69,8 @@ img {
 }
 .header-container {
     display: flex;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    border-bottom: 1px solid #E7E9FC;
+    padding: 0 15px
+    
 }
 .header-navigation {
     display: flex;
@@ -77,6 +80,8 @@ img {
     display: flex;
     align-items: center;
     gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .header-item {
     padding-top: 24px;
@@ -98,12 +103,15 @@ img {
 .header-address {
     font-style: normal;
     margin-left: auto;
+
     
 }
 .header-list-address {
     display: flex;
     align-items: center;
     gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .header-link-address {
     padding-top: 24px;
@@ -153,6 +161,7 @@ img {
     /* --------------main--------- */
 .main {
     background: var(--second-background);
+    padding: 188px 0 
 }
 .main-container {
     display: flex;
@@ -166,9 +175,8 @@ img {
     letter-spacing: 0.02em;
     color: #FFFFFF;
     background:var(--second-background);
-   padding-top: 188px;
    margin-left: 472px;
-   width: 496px;
+   max-width: 496px;
    align-items: center;
    padding-bottom: 292px;
 }
@@ -187,10 +195,11 @@ img {
 .main-btn {
    margin-left: 636px;
     margin-bottom: 188px;
-    width: 169px;
+    min-width: 169px;
     height: 56px;
     display: block;
     margin-top: 48px;
+    border: none;
     
 }
 
@@ -199,12 +208,14 @@ img {
     
 }
  /* --------------wraper--------- */
+ .wrapper {
+    padding: 120px 0;
+ }
  .wraper-container {
     display: flex;
     align-items: center;
  }
 .wrapper-list {
-    padding-top: 120px;
     padding-bottom: 120px;
     display: flex;
     gap: 24px;
@@ -230,6 +241,9 @@ img {
     
 }
 /* ------------services----------- */
+.services {
+    padding-bottom: 120px;
+}
 .services-container {
     display: flex;
     flex-wrap: wrap;
@@ -252,12 +266,14 @@ img {
 .services-list {
     
     display: flex;
-    padding-bottom: 120px;
     gap: 24px;
     
 }
 
 /* ------------team----------- */
+.team {
+    padding: 120px 0 
+}
 .team-container {
     display: flex;
     flex-wrap: wrap;
@@ -294,6 +310,7 @@ img {
     height: 380px;
     padding-bottom: 120px;
     width: calc(100%-72px)/4;
+    border-radius: 0px 0px 4px 4px;
 }
 .team-item {
     font-weight: 500;
