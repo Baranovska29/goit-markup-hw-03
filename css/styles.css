@@ -337,13 +337,9 @@ border-bottom: 1px solid #E7E9FC;
     
 }
 /* ------------cards----------- */
-.cards-container {
-    
-}
+
+
 .cards-list {
-display: flex;
-}
-.cards {
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
