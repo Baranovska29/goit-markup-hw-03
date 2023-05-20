@@ -338,7 +338,10 @@ border-bottom: 1px solid #E7E9FC;
 }
 /* ------------cards----------- */
 .cards-container {
-    display: flex;
+    
+}
+.cards-list {
+display: flex;
 }
 .cards {
     display: flex;
@@ -362,7 +365,6 @@ border-bottom: 1px solid #E7E9FC;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color:var(--title-color);
-    margin-top: 32px;
     margin-bottom: 32px;
     
 }
