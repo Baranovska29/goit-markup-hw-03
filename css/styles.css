@@ -63,11 +63,7 @@ border-bottom: 1px solid #E7E9FC;
     color: #2E2F42;
     margin-right: 76px;
 }
-.logo-color-footer{
-    color: #F4F4FD;
-    display: inline-block;
-    
-}
+
 .header-container {
     display: flex;
     padding: 0 15px
@@ -394,6 +390,10 @@ border-bottom: 1px solid #E7E9FC;
     padding-left: 156px;
     padding-right: 1169px;
     margin-bottom: 16px;
+    display: inline-block;
+}
+.logo-color-footer{
+    color: #F4F4FD;
     display: inline-block;
 }
 
