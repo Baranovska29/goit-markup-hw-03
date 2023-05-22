@@ -116,7 +116,7 @@ border-bottom: 1px solid #E7E9FC;
 }
 /* --------------section--------- */
 .section {
-    padding: 96px 0;
+    padding-top: 96px; padding-bottom: 120px;
 }
 .section-list {
     gap: 24px;
@@ -166,11 +166,12 @@ border-bottom: 1px solid #E7E9FC;
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-   min-width: 496px;
+   max-width: 496px;
+   height: 120px;
    margin-bottom: 48px;
    padding-left: 316px;
    padding-right: 316px;
-  
+   box-sizing: content-box;
 }
 .page-main-btn {
     font-family:inherit;
@@ -183,7 +184,6 @@ border-bottom: 1px solid #E7E9FC;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     cursor: pointer;
-    border: none;
     
     
 }
@@ -372,7 +372,7 @@ border-bottom: 1px solid #E7E9FC;
     padding-left: 156px;
     padding-right: 1169px;
     margin-bottom: 16px;
-    display: block;
+    display: inline-block;
 }
 .logo-color-footer{
     color: #F4F4FD;
