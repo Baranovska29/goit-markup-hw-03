@@ -215,7 +215,7 @@ border-bottom: 1px solid #E7E9FC;
     gap: 24px;
 }
 
- .hidden {
+ .wrapper-menu {
   position: absolute;
   width: 1px;
   height: 1px;
