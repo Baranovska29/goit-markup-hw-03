@@ -184,7 +184,7 @@ border-bottom: 1px solid #E7E9FC;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     cursor: pointer;
-    
+    border: none;
     
 }
 .main-btn {
@@ -215,7 +215,18 @@ border-bottom: 1px solid #E7E9FC;
     gap: 24px;
 }
 
-   
+ .hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
 .wrapper-list-title {
     font-weight: 500;
