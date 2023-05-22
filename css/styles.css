@@ -154,9 +154,8 @@ border-bottom: 1px solid #E7E9FC;
     /* --------------main--------- */
 .main {
     background: var(--second-background);
-    padding: 188px 0;
-    display: flex;
-    justify-content: center;
+    padding-top: 188px;
+    padding-bottom: 188px;
     
 }
 
@@ -166,9 +165,10 @@ border-bottom: 1px solid #E7E9FC;
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-   max-width: 496px;
+   min-width: 496px;
    margin-bottom: 48px;
-   justify-content: center;
+   padding-left: 316px;
+   padding-right: 316px;
   
 }
 .page-main-btn {
@@ -187,9 +187,12 @@ border-bottom: 1px solid #E7E9FC;
     
 }
 .main-btn {
-    min-width: 105px;
-   padding: 16px 32px;
-   justify-content: center;
+    max-width: 169px;
+    height: 56px;
+   margin-right: 479px;
+    margin-left: 480px;
+    display: inline-block;
+    
 
 }
 
