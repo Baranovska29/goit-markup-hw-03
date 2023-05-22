@@ -166,7 +166,7 @@ border-bottom: 1px solid #E7E9FC;
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-   max-width: 496px;
+   min-width: 496px;
    margin-bottom: 48px;
    padding-left: 316px;
    padding-right: 316px;
@@ -235,7 +235,7 @@ border-bottom: 1px solid #E7E9FC;
 }
 /* ------------services----------- */
 .services {
-    padding: 96px 0 120px 0;
+    padding-bottom: 120px;
 }
 .services-container {
     display: flex;
@@ -372,8 +372,7 @@ border-bottom: 1px solid #E7E9FC;
     padding-left: 156px;
     padding-right: 1169px;
     margin-bottom: 16px;
-    display: inline-block;
-    margin-right: 76px
+    display: block;
 }
 .logo-color-footer{
     color: #F4F4FD;
